@@ -1,0 +1,5 @@
+Non-repudation is a concept that ensures that once an action has taken place, neither the sender nor the recipient can deny their involvment in it. Proof of integrity and proof of origin are two aspects that ensure
+the authenticity and accountability of data and actions.
+-Proof of integrity: verifies that any data received is the same as the one that was sent. In cryptography, we use the hashing process. Each information is transmitted with a "fingerprint" called hash. If the
+hash changes, it means the information is not the same. It only verifies if the data was changed, not who sent the data.
+-Proof of origin: verifies the origin of the data by using digital signature (just as a real signature)
