@@ -1,0 +1,4 @@
+CIA Triad (also called AIC Triad) are the core fundamentals of security:
+Confidentiality: prevent disclosure of information to unauthorized individuals. SOme ways are encryption, access controls, two-factor authentication, etc.
+Integrity: information can't be modified without detection.
+Availability: systems and networks must be able to run.
