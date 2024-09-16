@@ -1,4 +1,4 @@
-Security controls: they are the measures taken to prevent security events/minimize their impacts. They can be divided in categories and also by type:
+ Security controls: they are the measures taken to prevent security events/minimize their impacts. They can be divided in categories and also by type:
 Categories:
 1. Technical controls: implemented through technology and systems such as firewalls, IDS, IPS, anti-virus, etc.
 2. Managerial controls: implemented through policies, procedures and guideslines such as policy document in an organization, security training and awareness programs, etc.
@@ -11,4 +11,4 @@ Deterrent: the goal is to discourage or make the attacker think twice such as th
 Detective: identify and log an intrusion attempt. May not prevent access. Such as system logs, motion detectors, etc.
 Corrective: occur after the event happened, reverses the impact of an event, the goal is to continue operating with minimal downtime. For example restoring from backups, etc.
 Compensating: used when the existing controls aren't sufficient, they are temporary such as blocking a specific application by the time the patch is available, generator used after power outage, etc.
-
+Directive: direct a subject towards security compliance such as training users on proper security policy
