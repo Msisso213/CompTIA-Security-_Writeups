@@ -1,0 +1,3 @@
+Authentification: prove you are who you say you are through identification (username) and authentification factors (password and other authentification factors)
+Authorization: after getting authentified, what access do we give you.
+Accounting: all information about what happened during the session (login time, data sent and received, loout time, etc.)
