@@ -1,3 +1,9 @@
-Authentification: prove you are who you say you are through identification (username) and authentification factors (password and other authentification factors)
-Authorization: after getting authentified, what access do we give you.
-Accounting: all information about what happened during the session (login time, data sent and received, loout time, etc.)
+-Authentification: prove you are who you say you are through identification (username) and authentification factors (password and other authentification factors). 
+Sometimes we may even put a digital signature in a device (in big company that uses many devices) which will recognize the device. One device or software in the
+organization is responsible to create to certificate and signature and to give it to the different "trusted devices".
+-Authorization: after getting authentified, what access do we give you. This leads to authorization models (also called abstraction) which will be looked at later.
+Basically authorization model is creating groups and give each group authorization to certain ressource. For example, someone working in the shipping department 
+would be added in the shipping and receiving group. This group have authorization to different ressources such as creating shipping label, tracking shipment, 
+view monthly shipping reports, etc. Si in the future, instead of manually giving authorization to each ressourche to every new employee, we just add them in a 
+group that we had previously giving all the authrization to the needed ressources.
+-Accounting: all information about what happened during the session (login time, data sent and received, loout time, etc.)
