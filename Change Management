@@ -1,1 +1,10 @@
 How to make a change in a network (upgrade software, patch, change firewall, etc.)? It needs a formal process to ensure the functionality of all application during and after the process.
+Here are the steps (may vary):
+-Request a form
+-Purpose of the change (bug, risk, recent incidents, etc.)
+-Identify the scope of the change
+-Schedule date and time
+-Determine affected system (a single computer, a whole department, etc)
+-Analyse risks associated with the change (risk of the change, but also the risks if we dont make the change or delay it)
+-Get approvial from control board
+-User testing (we of course make testing before implementing the change in what we call a sandbox which is an environement for test before we actually implement the change)
