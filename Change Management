@@ -3,8 +3,9 @@ Here are the steps (may vary):
 -Request a form
 -Purpose of the change (bug, risk, recent incidents, etc.)
 -Identify the scope of the change
--Schedule date and time
+-Schedule date and time (minimize the downtime, preferably when the least people use the ressources, perhaps holiday are the best time since most people are not working)
 -Determine affected system (a single computer, a whole department, etc)
 -Analyse risks associated with the change (risk of the change, but also the risks if we dont make the change or delay it)
 -Get approvial from control board
 -User testing (we of course make testing before implementing the change in what we call a sandbox which is an environement for test before we actually implement the change)
+***important to have a backout plan in case the change brings down the whole system
