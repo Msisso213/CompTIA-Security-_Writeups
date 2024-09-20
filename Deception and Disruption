@@ -1,1 +1,6 @@
-
+Deception refers to strategies to mislead attackers and protect systems from breaches by creating fake environments, data, or vulnerabilities to lure attackers away from real assets. Some common strategies are
+the following:
+-Honeypots -> decoy systems that simulate real systems to attract and analyze attackers which are oftenly machines.
+-Honeynets -> a network of honeypots which makes the trap more complex and difficult for machines to distinguish it from the real system.
+-Honeyfiles -> similar to honeypots, honeyfiles are files with fake information. An alert is then sent when the file is accessed.
+Honeytokens -> its traceable data so when the data is transferred, we know where it goes.
