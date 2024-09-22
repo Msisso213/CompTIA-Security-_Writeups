@@ -1,1 +1,3 @@
-
+The change management as previously seen refers to what needs to be changed. The technical change management refers to how to make those changes.
+Allow/deny list: allow or deny certain application from an environment because of potential threat to security.
+Downtime: schedueled time in which change process can be disruptive. They usually occur in non-production hours. Its also possible to switch to secondary system, upgrade the primary, then switch back. The goal is to minimize the down time events.
