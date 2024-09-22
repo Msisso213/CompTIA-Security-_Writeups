@@ -1,1 +1,4 @@
-
+Refers to the binding of public key to people or devices which is used in the certificate of authority.
+Symmetric encryption: encrypt with a key and decrypt with the same one. Its used because its very easy and fast of usage. The issue is to  keep track of numerous keys.
+Asymmetric encryption: encrypt with a key and decrypt with another one, but both are mathematically linked. There is a public key (everyone can see it) and a private key (only for you). The private key is the only key that can decrypt data encrypted using the public key.
+Key escrow: in large organization, it is common that all keys are stored somewhere to make communication easier.
