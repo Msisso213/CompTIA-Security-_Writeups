@@ -5,3 +5,4 @@ Restart: may be required by the new change to implement the new configuration.
 Legacy applications: some apps are very old and they are often no longer supported by the developper. It is crutial to read the documentation about them before making any changes to them. After that, you'll basically become the expert of the app.
 Dependencies: some services or apps can't start without other active services or apps which means that sometimes for a simple change on a single service or app you need to make changes to all services or apps related.
 Documentation: very important to update the documentation, because they can get outdated quickly.
+Version control: gives information about the current software version. It is sometimes possible to change version by a simple click.
