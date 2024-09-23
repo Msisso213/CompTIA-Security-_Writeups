@@ -1,5 +1,7 @@
 -The data on storage device is encryptided. This means that both the sending device and receiving device first agree to an encryption algorithm. Then, the data from the sending device is encrypted using the chosen 
 algorithm. The data is then sent, and the receiving device uses the same algorithm to decrypt the data. If we want to encrypt everything, we want to use full-disk encryption using bitlocker on windows or filevault 
-in MacOs. If we want only to encrypt a single file, the Encrypting File System (EFS) might be enough.
+in MacOs. If we want only to encrypt a single file, the Encrypting File System (EFS) might be enough. Even if we know most algorithm and how they work, it is nearly impossible to decrypt data without the key which
+is the most important component of encryption. It is possible to brute-force attack the key (try every possible combination), so the larger it is, the safer it is. It is also possible to make a weak key stronger by 
+perfoming multiple processes (ex: hash a password, then hash the hash of the password, then hash the hash of the hash of the password, and so on.)
 -The data in database is also encryptided (ex: name, ast name, employee number, social security number, etc.
 -The data is also encryptided while moving from one device to the other (HTTPS, VPS, etc).
