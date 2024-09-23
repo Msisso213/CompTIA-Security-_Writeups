@@ -1,0 +1,5 @@
+-The data on storage device is encryptided. This means that both the sending device and receiving device first agree to an encryption algorithm. Then, the data from the sending device is encrypted using the chosen 
+algorithm. The data is then sent, and the receiving device uses the same algorithm to decrypt the data. If we want to encrypt everything, we want to use full-disk encryption using bitlocker on windows or filevault 
+in MacOs. If we want only to encrypt a single file, the Encrypting File System (EFS) might be enough.
+-The data in database is also encryptided (ex: name, ast name, employee number, social security number, etc.
+-The data is also encryptided while moving from one device to the other (HTTPS, VPS, etc).
