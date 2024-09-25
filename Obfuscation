@@ -1,1 +1,6 @@
-The process of making something easy to understand difficult to understand.
+The process of making something easy to understand difficult to understand ex: hiding information in an image called steganography. The issue with stenography is that if you know how the information got stored in the
+first place, its really easy to retrieve it. Other example of steganography is embed messages in TCP packets, yellow dots on printers (invisible watermarks), audio steganography, video steganography.
+Tokenization its the use of a one-time non-sensitive placeholder when somtimes dealing with data. An example of that is the use of credit car on the phone. When we link our credit card, the application sends a 
+request to a remote token service server to register the credit card and to provide for many token which are stored in the phone (tokens are just place holders that dont match the credit card number). Then,
+everytime we make a purchase with the phone, the merchant payment processing server uses the token information instead of the credit card. The merchant service server sends this token to the remote token service 
+server which look which credit card match this token and then the transaction is finalized.
