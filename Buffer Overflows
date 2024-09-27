@@ -1,0 +1,3 @@
+A buffer overflow is a programming error that occurs when a program writes more data to a buffer than it can hold, causing the excess data to overwrite adjacent memory. This can lead to unpredictable behavior, 
+crashes, or security vulnerabilities, as attackers can exploit this by crafting inputs that manipulate the program's execution flow, often redirecting it to execute malicious code. By carefully controlling the input
+data, they can gain unauthorized access or control over the affected system.
