@@ -1,1 +1,4 @@
-
+Digital certificate: it binds a public key with a digital signature. It is used for additional trust. But what is a digital certificate exactly? X.509 is the standard format of digital certificate. It contains 
+details such as serial number, signature algorithm, issuer, name of the cert holder, public key, extension and more.
+-It is important to understand how do we want to implement the trust process in an environment (which step someone needs to take to get trusted with data or to enter in an network (this process is called root 
+of trust. Certificate Authorities is a third-party which will "approve" the security of a web-site for us. Since we trust the certificate athority, which trust the site, it means we also trust the site.
