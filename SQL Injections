@@ -1,0 +1,1 @@
+SQL is the most common language to request information from data base (get, request). An SQL injection is simply adding your code to an application. A common SQL injection is adding 'or'1'='1 after a request to request everything.
