@@ -1,0 +1,2 @@
+This refers to when two events happen at nearly the same time within an application, but the application doesnt take into account that two conditions may be operating simultaneously.
+-Time-of-check to time-of-use attack (TOCTOU): sometimes application check the system to see if a change on a value happened. But an event could happen by the same or slightly after the process began without it knowing it.
