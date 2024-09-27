@@ -3,3 +3,7 @@ new vectors. Some common threat vectors are the following:
 -Message-based vectors: email, SMS
 -Image-based vector: SVG, PNG, JPG, HTML injection, javascript attack code
 -File-based vectors: executables, adobe pdf, zip/rar files, files with links
+-Voice call vector: phishing over the phone, spam phone calls
+-Removable device vectors: usb, flash drives
+-Vulnerable software vectors: known or unknown vulnerabilities, infected executable, 
+-Unsupported systems vectors: some old outdated systems may not have patches anymore so its important to not forget about them as they can be a vulnerability.
