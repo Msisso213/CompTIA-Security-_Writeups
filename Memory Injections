@@ -1,0 +1,2 @@
+Malware runs in memory. Sometimes it will hide into an existing process, which will give it the same rights and permission, also as the same data access.
+DLL (dynamic-link library) is an example of memory injection.
