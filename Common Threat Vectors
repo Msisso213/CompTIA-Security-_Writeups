@@ -7,3 +7,6 @@ new vectors. Some common threat vectors are the following:
 -Removable device vectors: usb, flash drives
 -Vulnerable software vectors: known or unknown vulnerabilities, infected executable, 
 -Unsupported systems vectors: some old outdated systems may not have patches anymore so its important to not forget about them as they can be a vulnerability.
+-Unsecured network vectors: poor security control protocols in wireless network, bluetooth
+-Open service ports: every open port is an opportunity for attacker (80, 443, etc.)
+-Default cedentials: important to change passwords
