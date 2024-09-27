@@ -5,3 +5,5 @@ of trust. Certificate Authorities is a third-party which will "approve" the secu
 -If we create a web-site and we want it to be certified by the authority, we have to do a certificate signing request (CSR), then the CA validate the application and return use the digitally signed certificate.
 If we are responsible for an organization, it is also possible to be our own CA. We can download a CA software inside the organization.
 -It is also possible to revoke certificate using cetificate revocation list (CRL). It is a file contained in the certificate itself.
+-Online Certificate Status Protocol (OCSP) is a more efficient way to see if individual certificate is still valid or not. The browser can directly check instead of always downloading the CRL file from the third
+party.
