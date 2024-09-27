@@ -1,0 +1,5 @@
+Refers to the method used by the attacker to gain access or infect the target. The goal of cybersecurity is to constantly find ways to mitigate those threat vectors by protecting form existing vectors and finding 
+new vectors. Some common threat vectors are the following:
+-Message-based vectors: email, SMS
+-Image-based vector: SVG, PNG, JPG, HTML injection, javascript attack code
+-File-based vectors: executables, adobe pdf, zip/rar files, files with links
