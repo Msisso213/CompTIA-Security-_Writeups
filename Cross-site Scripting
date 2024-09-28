@@ -1,0 +1,1 @@
+ALso know as XSS (even if the letters dont match). Its a security vulnerability typically found in web applications. It allows attackers to inject malicious scripts into content that other users will view. When users load the affected page, their browsers execute the malicious scripts, potentially leading to unauthorized actions, data theft, or session hijacking.
