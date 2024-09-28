@@ -1,1 +1,4 @@
-ALso know as XSS (even if the letters dont match). Its a security vulnerability typically found in web applications. It allows attackers to inject malicious scripts into content that other users will view. When users load the affected page, their browsers execute the malicious scripts, potentially leading to unauthorized actions, data theft, or session hijacking.
+ALso know as XSS (even if the letters dont match). Its a security vulnerability typically found in web applications. It allows attackers to inject malicious scripts into content that other users will view. When users
+load the affected page, their browsers execute the malicious scripts, potentially leading to unauthorized actions, data theft, or session hijacking. How does it happen? First, the attacker sends a link containing a
+malicious script to a victim. Then the victim clicks the link which will bring him to a legitimate site. The legitimate site runs, but there are also malicious scripts running behind which send the victim's data to
+the attacker.
