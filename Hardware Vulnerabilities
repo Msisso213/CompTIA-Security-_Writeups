@@ -1,1 +1,3 @@
 -Firmware: software inside the hardware. In often case, the vendors are the only ones who can fix it. Those vendors sometimes are not really concerned for cybersecurity vulnerabilities resulting in delayed patches.
+-End of life (EOL) is when manufacturer stops selling a product. It doesnt mean that the manufacturer will stop making the patches.
+-End of service life (EOSL) is when a manufacturer stop selling a product and stop offering support (patches and evrything related) for a product.
