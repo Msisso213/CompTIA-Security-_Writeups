@@ -1,3 +1,9 @@
 -76% of organizations aren't using MFA for management console users, and 63% of code in productions would require significant patches, but there aren't any. 
--Denial of Service (DoS): denial of service refers to a single machine or computer to flodd a targeted resource and making it unavailable>
--Distributed Denial of Service (DDoS)
+-Denial of Service (DoS): denial of service refers to a single machine or computer flooding a targeted resource and making it unavailable>
+-Distributed Denial of Service (DDoS): distributed denial of service refers to multiple machines or computer flodding a targeted resource and making it unavailable.
+-Authentification bypass: take advantage of weak or faulty authentification.
+-Directory traversal: refers to the capacity of an attacker to move between the structure of the web server.
+-Remote code execution: capacity of an attacker to modify cloud based code.
+-Cross-site scripting
+-Out of bounds write: write to unauthorized memory areas that could cause data corruption, crashing, bug, or code execution
+-SQL injection
