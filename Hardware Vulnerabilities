@@ -3,5 +3,5 @@
 -End of service life (EOSL) is when a manufacturer stop selling a product and stop offering support (patches and evrything related) for a product.
 -VMs share similar vulnerabilities as their physical alternatives, but they also have their own such as local privilege escalations, command injection, information disclosure, and more)
 -VM escape protection: refers to the breaking out of the VM and interact with the host operating system or hardware
--Hypervisor: its a hardware that manages the relationship between physical and virtual resources (ram, storage space, cpu availability, etc) These resources can be reused between VMs. Hypervisor host with 4GB of 
-RAM, supports three VMs with 2 GB of RAM (RAM is allocated and shared between VMs).
+-Hypervisor: its a hardware that manages the relationship between physical and virtual resources (ram, storage space, cpu availability, etc) These resources can be reused between VMs. Hypervisor host with max 4GB of 
+RAM, supports three VMs with 2 GB of RAM (RAM is allocated and shared between VMs which mean only 4 total RAM is used, but some of it is used by many multiple machines).
