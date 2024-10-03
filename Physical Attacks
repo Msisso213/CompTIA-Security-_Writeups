@@ -1,2 +1,3 @@
 If someone has physical access to a server, he has full control of it. An OS can't stop an in-person attack.
 -RFID cloning: refers to the access badges cloning (really easy, you can purchase and rfid cloner for less than 50$ on amazon)
+If attacking the target directly is impossible, it is also possible to attack the environment of the target (power source, database, HVAC (heating, ventilation), fire supression, etc.
