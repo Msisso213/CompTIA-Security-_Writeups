@@ -1,1 +1,5 @@
-Malware that can repreduce itself in the network. It needs you to execute a program.
+Malware that can repreduce itself in the network. It needs you to execute a program. It may or may not cause problems. Different types of viruses:
+-Program viruses: part of an application
+-Boot sector viruses: run automatically with the boot system
+-Script viruses: contained inside the scripts
+-Macro viruses: written in macro language
