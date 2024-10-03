@@ -3,3 +3,4 @@ Malware that can repreduce itself in the network. It needs you to execute a prog
 -Boot sector viruses: run automatically with the boot system
 -Script viruses: contained inside the scripts
 -Macro viruses: written in macro language
+-Fileless virus: doesnt use any file nor write any software or malicious code, which makes it better at avoiding anti-virus detection, because those looks for program that write files. It operates in the memory, and is never installed in a file or application.
