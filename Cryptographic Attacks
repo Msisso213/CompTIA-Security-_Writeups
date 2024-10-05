@@ -1,1 +1,6 @@
-
+-Crypthography requires the key. Often attackers wont have the key and will instead try to go for what is protected directly. Often they will attack the implementation of the cryptopgraphy which is often the weakess
+link.
+-Birthday attack: its a brute force attack which tries to find two plaintext that will share the same hashing which is called a collision. Its then easier after to understand the encryption process and decrypt 
+information.
+-Downgrade attack: its to force the system to downgrade the encryption to a weaker type of encryption or to force the system to not encrypt at all. This can be done when an attacker is in a middle between two devices
+in a communication and prevent one another to encrypt their data when they send it to each other.
