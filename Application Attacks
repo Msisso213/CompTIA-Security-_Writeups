@@ -1,0 +1,5 @@
+-Injection (html, sql, xml, etc.)
+-Buffer overflows: spills over into other memory areas
+-Replay attacks
+-Privilege escalation
+-Cross-site requests
