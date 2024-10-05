@@ -1,1 +1,5 @@
-
+-DoS: happens when an attacker forces a service to fail by overloading the service using a single device. It is possible to unintentionally DoSing ourseflves by using
+more ressources than available (ex: dowloading multi-gigabyte on not much bandwith, using full ram, etc.)
+-DDoS: same thing, using multiple devices. Attackers often have botnets which is thousands or millions of computers at their command (usually because they're infected
+by malware).
+-Reflection and amplification: it is possible to turn small amount of data to big data to amplify an attack and to make it more effective 
