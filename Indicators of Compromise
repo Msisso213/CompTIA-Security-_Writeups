@@ -1,0 +1,2 @@
+-Indicators of compromise (IOC): its evidence that show that a device is compromised for example unusual amount of network activity, change of file hash values, international traffic, change to DNS data, uncommon 
+login pattern, spikes of read requests to certain files, account lockout (too many attempts to login), concurrent session usage (login in different locations), and more.
