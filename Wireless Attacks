@@ -4,3 +4,4 @@ command, all access point of the area will be shown (with their addresses) with 
 disconnect. We can then run the command aireplay-ng -0 100 -a [] -c {} // -> inside the [] goes the BSSID of the access point (hardware ID), inside the {} goes the mac address of the device we want to remove and inside 
 the // goes the wireless card name (professor used again wlan0mon)
 -Radio frequency jamming: affects not a single device, but everyone who tries to communicate using that signal frequency.
+-Wireless jamming: constantly sending frames and data in the network
