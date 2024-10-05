@@ -1,0 +1,3 @@
+-DNS poisoning: modify the DNS server (requires some crafty hacking), modify the client host file, 
+-Domain hijacking: take control of the entire domain
+-URL hijacking: redirecting to other domain
