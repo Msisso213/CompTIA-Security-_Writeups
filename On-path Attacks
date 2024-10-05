@@ -5,4 +5,4 @@ attack works: lets say we have two devices: a laptop with IP 192.168.1.9 with a 
 thing the laptop will do when connecting to a network is ask the entire network who has the IP address of 192.168.1.1 (addresses that finish with .1 are usually routers) and the device that has it to send its MAC
 address. The router will receive this message and send its MAC address to the laptop, which will store it in a cache (ARP cache). This process (ARP protocol) is done again after some times. An attacker in the same 
 network could send an ARP reply saying he is the device 192.168.1.1 (even if he is not) and send his MAC address to the laptop, which will replace the MAC address in its cache by the one of the attacker, since ARP
-doesnt have any type of authentification function.
+doesnt have any type of authentification function. The same process can happen in reverse (with the router doing an ARP request to the laptop and after the attacker sending an ARP reply to the router).
