@@ -1,0 +1,5 @@
+-Cloud services are of different types: IaaS (infrastructure as a Service, PaaS (platform as a Service), SaaS (Software as a Service) and others. For every type of cloud service, the security of the service is 
+differently attributed to both the customer and provider. For example, for the SaaS, the information and data, the devices, the accounts and identities are all all managed by the customer and the applications, 
+network controls, OS, physical hosts, physical network and physical datacenter are all managed by the provider (identity and directory infrastructure is managed by both customer and provider). If we take the 
+PaaS, information and data, devices, accounts and identities are managed by the customer and the OS, physical hosts, physical network and physical datacenter are managed by the provider (identity and directory 
+infrastructure, applications, network controls are managed by both parties). The table where all responsibilities are both parties are shown is called a responsibility matrix.
