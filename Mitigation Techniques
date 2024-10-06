@@ -1,0 +1,6 @@
+-Patching (this is before an event)
+-Encryption (before the event)
+-Monitoring
+-Least privilege
+-Configuration enforcement
+-Decommissioning (to remove a device from the work) -> it is important to remove all sensitive data before throwing the computer away
