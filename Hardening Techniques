@@ -1,1 +1,4 @@
 -System hardening (windows, linux, iOS, Android, etc.) -> updates, user credential (username, passwords), limit network access, anti-malware, anti-virus, encryption.
+-Endpoint detection and response (EDR): its a tool that monitor and respond to threats on endpoints (laptops, desktops, servers, etc.) It responds by isolating affected endpoints, removing malicious files or 
+rolling back changes made by malware.
+-Host-based firewall
