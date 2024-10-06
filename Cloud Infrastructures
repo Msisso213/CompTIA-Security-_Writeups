@@ -4,3 +4,4 @@ network controls, OS, physical hosts, physical network and physical datacenter a
 PaaS, information and data, devices, accounts and identities are managed by the customer and the OS, physical hosts, physical network and physical datacenter are managed by the provider (identity and directory 
 infrastructure, applications, network controls are managed by both parties). The table where all responsibilities are both parties are shown is called a responsibility matrix.
 -Infrastructure as code: define servers, network, and applications as code
+-Serverless architecture: Function as a Service (FaaS) applications are separated into individual, autonomous fonctions.
