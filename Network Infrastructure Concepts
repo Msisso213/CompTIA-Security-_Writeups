@@ -1,0 +1,2 @@
+-Virtual Local Area Networks (VLANs): its a technology built in the switches that allows you to separate logically instead of physically, so instead of having all accounting devices connected to 1 switch and all HR 
+devices connected to another switch, we can use 1 switch and connect everyone on it, but use a VLAN to separate them. 
