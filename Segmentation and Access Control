@@ -1,0 +1,2 @@
+-Segmentations can be physical, logical (network switches such as VLANS) or virtual (cloud based or cloud architecture). Those segmentation are important to prevent limit the accessibility of data, but also to
+minimize the impacts that an attacker could have. The segmentation is done easier using access control lists (ACLs) which is a list where devices are grouped by categories, source IP, destination IP, etc.
