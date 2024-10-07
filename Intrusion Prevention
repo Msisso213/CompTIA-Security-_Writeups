@@ -1,3 +1,5 @@
 -Intrusion Prevention System (IPS): monitor network traffic in real time and watch for intrusions.
 -Intrusion Detection SYstem (IDS): alarm when an intrusion occur
 -Difference between the 2: IPS can block an intrusion before it gets into the network whereas IDS alerts you when its inside.
+-Active monitoring vs passive monitoring: in active monitoring, the data is directly passing in an IPS and it makes the decision if the traffic is legit or not. Some organization can be concerned that the IPS is too
+aggressive and block legit traffic. In that case, passive mnitoring can be used, where a copy of the traffic is sent to the IPS (in this case the IPS is more acting like and IDS)
