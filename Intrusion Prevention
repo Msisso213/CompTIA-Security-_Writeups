@@ -1,0 +1,3 @@
+-Intrusion Prevention System (IPS): monitor network traffic in real time and watch for intrusions.
+-Intrusion Detection SYstem (IDS): alarm when an intrusion occur
+-Difference between the 2: IPS can block an intrusion before it gets into the network whereas IDS alerts you when its inside.
