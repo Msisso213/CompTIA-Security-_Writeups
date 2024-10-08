@@ -1,0 +1,3 @@
+-It's easy to manage a network when you're inside. But sometimes, we need to manage it from the outside. In those cases, we can use a jump server, which is a device in which the security is very high that we can
+access from the outside using SSH, tunnel, VPN, or other stuff.
+-Proxies: sits between the devices and the external network, it receives the users requests and sends the the requests on their behalf.
