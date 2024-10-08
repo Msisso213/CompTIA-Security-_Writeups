@@ -1,0 +1,2 @@
+-802.1.X (NAC) is a function that provides a method for controlling acces to a network by requiring devices to authenticate. Its often paired with Extensible Authentification Protocol (EAP) which is a framework used 
+to authentification users before they enter the network.
