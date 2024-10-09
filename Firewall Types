@@ -1,3 +1,6 @@
 They control the flow of outbound and inbound network. Old firewalls filtered traffic by port number (OSI layer 4), while next generation firewalls (NGFW) filters traffic by application (OSI layer 7). They also
 encrypt data. They can also acts as routers.
--Unified Threat Management (UTM) also called web security gateway is an old type of device which has many capabilities such as URL filter/content inspection, malware inspection, spam filter, router/switch, firewall, IDS/IPS
+-Unified Threat Management (UTM) also called web security gateway is an old type of device which has many capabilities such as URL filter/content inspection, malware inspection, spam filter, router/switch, 
+firewall, IDS/IPS and VPN endpoint. The problem with this is its a layer 4 device (ports) and having all those features would draw back performance (only few of them could be on)
+-NGFW: acts at layer 7, can examine all traffic in the network, and decode everything in a packet. Often, IPS will be built in also as content filtering.
+-Web application firewall (WAF): appiies rules to http/https conversation
