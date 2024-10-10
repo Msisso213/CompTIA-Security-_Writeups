@@ -1,0 +1,8 @@
+Different levels require different security and handling
+-Regulated: managed by a third-party
+-Trade secret: organization's secret formulas
+-Intellectual property: we can use copyright and trademark restrictions
+-Legal information: important to make sure what can be public (court records and documents, etc.) and what can't (personnaly identifiable information, etc.)
+-Financial information: payement record, credit card, etc.
+-Human-readable: human can understand the data
+-Non-human readable: human can't understand
