@@ -1,0 +1,3 @@
+-Capacity to maintain the uptime and availability of the systems using redundancy, HA (high availability) configuration, server clustering (many servers acting as one server (each one knows about the information of 
+the others), load balancing (distributing the load to the servers, since each load doesnt know about the other), recovery site (physical place that is synchronized with the original place, so if something happens,
+its easy to switch location)
