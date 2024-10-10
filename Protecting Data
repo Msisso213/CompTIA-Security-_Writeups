@@ -1,0 +1,9 @@
+-Geographic location:
+1. Network location: IP subnet
+2. Geolocation: GPS (very accurate), 802.11 wireless (less accurate), IP address (not very accurate)
+3. Geofencing: automatically allow or restrict access depending on location (for example allow access only if in the building)
+
+-Encryption: plain to cypher back to plain
+-Hashing
+-Obfuscation: taking something easy to follow to something very difficult to understand.
+-Security policies
