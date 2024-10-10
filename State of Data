@@ -1,0 +1,4 @@
+-Data at rest: data on storage device
+-Data in transit: data transmitted over the network
+-Data in use: data actively processed in memory or cpu
+-Data sovereignty: data stored in another country -> those data follow the law of the country it is in
