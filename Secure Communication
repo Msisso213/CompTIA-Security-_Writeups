@@ -8,3 +8,4 @@ original IP header.
 -SD-WAN (Software Defined networking in a Wide Area Network: the traditional configuration of network is having a main physical datacenter in the middle, and many remote site connecting to it using VPN. Now with the
 cloud, it is also possible to access the databases in the cloud using SD-WAN without having to pass through the datacenter.
 -SASE (Secure Access Service Edge): next generation VPN integrating the cloud.
+There are many VPN option and they can be combined depending the needs.
