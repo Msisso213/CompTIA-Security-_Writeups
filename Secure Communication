@@ -7,3 +7,4 @@ original IP header.
 -Site-to-site IPsec VPN: in this type of configuration, there is a firewall in both end of the tunnel that acts as VPN concentrator.
 -SD-WAN (Software Defined networking in a Wide Area Network: the traditional configuration of network is having a main physical datacenter in the middle, and many remote site connecting to it using VPN. Now with the
 cloud, it is also possible to access the databases in the cloud using SD-WAN without having to pass through the datacenter.
+-SASE (Secure Access Service Edge): next generation VPN integrating the cloud.
