@@ -2,4 +2,6 @@
 tunnel, he couldnt understand the data as it is encrypted (right before entering the corporate network, the VPN concentrator decrypts the data). Here how it works: if we want to send a packet, we need an IP header
 (destination) and data. But those information need to be encrypted, so we wrap those 2 (tunnel mode) with a new IP header (to point to the right IPsec concentrator) and an IPsec header with an IPsec Trailers (those
 2 will say from where the data starts and ends). Once the packet is received by the IPsec concentrator, it will remove the new IP header, the IPsec header, the IPsec trailers and will send the packet following the
-original IP header.
+original IP header. 
+-Common protocols that use VPN are SSL (secure sockets layer) also named remote access VPN and TLS (transport layer security).
+-Site-to-site IPsec VPN: in this type of configuration, there is a firewall in both end of the tunnel that acts as VPN concentrator.
