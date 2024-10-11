@@ -1,3 +1,4 @@
 -Capacity to maintain the uptime and availability of the systems using redundancy, HA (high availability) configuration, server clustering (many servers acting as one server (each one knows about the information of 
 the others), load balancing (distributing the load to the servers, since each load doesnt know about the other), recovery site (physical place that is synchronized with the original place, so if something happens,
-its easy to switch location) (a site that replicates everything is called a hot site and an empty building is called a cold site), 
+its easy to switch location) (a site that replicates everything is called a hot site and an empty building is called a cold site (there is also a warm site which has some equipment but not much)). Geographic
+dispersion can help having more resilience. Multi-cloud as well.
