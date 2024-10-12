@@ -1,0 +1,3 @@
+-WPA2: its an encryption protocol in which there are security concerns, because attackers have found a way to get the hash from it and brute-force it to find the key. WPA3 was introduced and was more secure.
+-Wireless authentification 
+-AAA framework: identification, authentication, authorization, accounting
