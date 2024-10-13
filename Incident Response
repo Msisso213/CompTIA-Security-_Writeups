@@ -1,1 +1,8 @@
-
+-Sometimes security incidents can happen and we need to answer them, but how? Usually the organization respond following the NIST SP800-61 which is the computer security incident handling guide.
+-Preparing for an incident: important to have policies and procedures, communication methods (phones and contact of people who should be informed when an incident happens. Its also important to have the hardware and software necessary to 
+handle those incident (laptops, removable media, forensic software, digital cameras, documentation, network diagram, backups, clean OS and application images, etc.
+-Detecting an incident
+-Analysis
+-Isolation and containment
+-Recovery after incident
+-Lesson learned (its the moment to ask the tough questions)
