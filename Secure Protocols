@@ -1,0 +1,1 @@
+-Important to alsways encrypt data and to use secure protocols when we can. For example, for remote console, use SSH instead of Telnet, for web browsing use HTTPS instead of HTTP, for email client access, use IMAPS instead of IMAP, for file transfer, use SFTP instead of FTP, etc.
