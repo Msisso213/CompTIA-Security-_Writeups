@@ -1,0 +1,15 @@
+-Filter traffic by port number (traditional firewalls) or application (NGFW)
+-Encrypt traffic
+-Can also act as a router (layer 3)
+-Firewall rules: they can be general or specific. A firewall will read the restrictions on the list starting for top to the bottom, so the specific rules as usually at the top. It is also common to have Access 
+control lists (ACLs) which are groupings of categories (source IP, destination IP, port number, etc.) that we want to allow or deny traffic. Here is an example of firewall ruleset:
+Rule Number      Remote IP      Remote Port      Local Port      Protocol      Action
+    1               All             Any              22             TCP        Allow    -> this allow any traffic from remote IP/remote port using SSH
+    2               All             Any              80             TCP        Allow    -> this allow any traffic from remote IP/remote port using HTTP
+    3               All             Any              443            TCP        Allow    -> this allow any traffic from remote IP/remote port using HTTPS
+    4               All             Any             3389            TCP        Allow    -> this allow any traffic from remote IP/remote port using Microsoft remote desktop
+    5               All              53              Any            UDP        Allow    -> this allow any traffic from remote IP or remote port 53 using DNS
+    6               All             123              Any            UDP        Allow    -> this allow any traffic from remote IP/remote port using NTP (Network Time Protocol)
+    7               All                                            ICMP        Deny     -> this deny any traffic from remote IP using ICMP (Internet Control Message Protocol (ping))
+-IPS works similar to firewall. A firewall is about controlling access, while an IPS is focused on monitoring and responding to threats within allowed traffic (dropping malicious packets, blocking offending
+IP addresses, etc).
