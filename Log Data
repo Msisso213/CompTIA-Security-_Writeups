@@ -1,0 +1,9 @@
+-They contain blocked and allowed traffic flows, exploits attempts, blocked URL categories, DNS sinkhole traffic.
+-Firewall logs: source/destinations IP, port numbers. The NGFW also have information on the application used.
+-Application logs
+-Endpoint logs
+-OS-specific security logs
+-IPS/IDS logs
+-Network logs (router, switches, etc.)
+-Dashboard
+-Packet captures (wireshark)
