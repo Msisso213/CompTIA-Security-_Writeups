@@ -10,6 +10,9 @@ No Anti-Virus      medium              high                          medium     
 Software
 
 
--Quantitative risk assessment: same thing can be done using a quantitative table with those column title: Annualized Rate of Occurrence (ARO), Asset Value (AV), Exposure Factor (EF). For example, lets calculate the Single Loss Expectancy (SLE) for a laptop with a 1000$ worth:
-The AV is 1000 * EF of 1.0 = 1000 SLE
+-Quantitative risk assessment: same thing can be done using a quantitative table with those column title: Annualized Rate of Occurrence (ARO), Asset Value (AV), Exposure Factor (EF). For example, lets calculate the
+Single Loss Expectancy (SLE) for a laptop with a 1000$ worth: the AV is 1000 * EF of 1.0 = 1000 SLE
 The annualized loss expectancy (ALE) is the ARO * SLE. Lets say our ARO is 7, then ARO of 7* SLE of 1000 = 7000 ALE
+-Impacts: life, property, safety, financial, etc.
+-Risk appetite is a qualitative description for readiness to take a risk. Risk tolerance is usually larger from the risk appetite. An example to distinguish both is the speed limit. Lets say we have a speed limit of
+60, this is the risk appetite. But police officer will only purchase you at 80 which is the risk tolerance.
