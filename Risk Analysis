@@ -1,0 +1,13 @@
+-Qualitative risk assessment: a table such as this one can be done to evaluate:
+Risk Factor      Impact      Annualized Rate of Occurrence      Cost of Controls      Overall Risk
+
+Legacy Windows    medium                high                          medium              high
+Clients
+
+Untrained Staff    low                medium                          low                 medium
+
+No Anti-Virus      medium              high                          medium                high
+Software
+
+
+-Quantitative risk assessment: same thing can be done using a quantitative table with those column title: Annualized Rate of Occurrence (ARO), Asset Value (AV), Exposure Factor (EF)
