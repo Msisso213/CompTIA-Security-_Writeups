@@ -1,0 +1,4 @@
+-Recovery time objective (RTO): how much time does the databse server and web server takes to recover
+-Recovery point objective (RPO): what minimum service need to be running to consider being running
+-MTTR: mean time to repair
+-MTBF: mean time between failures
