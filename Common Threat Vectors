@@ -1,5 +1,5 @@
-Refers to the method used by the attacker to gain access or infect the target. The goal of cybersecurity is to constantly find ways to mitigate those threat vectors by protecting form existing vectors and finding 
-new vectors. Some common threat vectors are the following:
+Refers to the method used by the attacker to gain access or infect the target. The goal of cybersecurity is to constantly find ways to mitigate those threat vectors by
+protecting form existing vectors and finding new vectors. Some common threat vectors are the following:
 -Message-based vectors: email, SMS
 -Image-based vector: SVG, PNG, JPG, HTML injection, javascript attack code
 -File-based vectors: executables, adobe pdf, zip/rar files, files with links
@@ -9,4 +9,4 @@ new vectors. Some common threat vectors are the following:
 -Unsupported systems vectors: some old outdated systems may not have patches anymore so its important to not forget about them as they can be a vulnerability.
 -Unsecured network vectors: poor security control protocols in wireless network, bluetooth
 -Open service ports: every open port is an opportunity for attacker (80, 443, etc.)
--Default cedentials: important to change passwords
+-Default credentials: important to change passwords
