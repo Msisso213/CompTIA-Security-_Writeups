@@ -1,5 +1,6 @@
-Some netwroks, once the firewall past, are relatively open with few security controls. Network administrator are changing this and implementing more security controls even in the different firewalls are pasted.
-For exemple, a user which request data from the USA, but the IP address is from China seems weird, additional security measures would be needed to ensure this user is authorized to access those data.
-This last concept of localisation is called security zones. The Policy enforcement point (PEP) is a gatekeeper that will gather information about a connection and send it to the Policy Decision Point (PDP) 
-which evaluate if a communication should be terminated or not. In resume, lets say we have someone using a device from an untrusted zone, his communication will pass through the PEP which will send the
-information to the PDP. The decision is then sent back to the PEP and it will either terminate the communication or allow it to a trusted zone.
+Some netwroks, once the firewall past, are relatively open with few security controls. Network administrator are changing this and implementing more security controls even when
+the different firewalls are pasted. For exemple, a user which request data from the USA, but the IP address is from China seems weird, additional security measures would be
+needed to ensure this user is authorized to access those data. This last concept of localisation is called security zones. The Policy Enforcement Point (PEP) is a gatekeeper
+that will gather information about a connection and send it to the Policy Decision Point (PDP) which evaluate if a communication should be terminated or not. In resume, lets
+say we have someone using a device from an untrusted zone, his communication will pass through the PEP which will send the information to the PDP. The decision is then sent
+back to the PEP and it will either terminate the communication or allow it to a trusted zone.
