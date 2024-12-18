@@ -1,8 +1,11 @@
 The change management as previously seen refers to what needs to be changed. The technical change management refers to how to make those changes.
 Allow/deny list: allow or deny certain application from an environment because of potential threat to security.
-Downtime: schedueled time in which change process can be disruptive. They usually occur in non-production hours. Its also possible to switch to secondary system, upgrade the primary, then switch back. The goal is to minimize the down time events.
+Downtime: schedueled time in which change process can be disruptive. They usually occur in non-production hours. Its also possible to switch to secondary system, upgrade the
+primary, then switch back. The goal is to minimize the down time events.
 Restart: may be required by the new change to implement the new configuration.
-Legacy applications: some apps are very old and they are often no longer supported by the developper. It is crutial to read the documentation about them before making any changes to them. After that, you'll basically become the expert of the app.
-Dependencies: some services or apps can't start without other active services or apps which means that sometimes for a simple change on a single service or app you need to make changes to all services or apps related.
+Legacy applications: some apps are very old and they are often no longer supported by the developper. It is crutial to read the documentation about them before making any
+changes to them. After that, you'll basically become the expert of the app.
+Dependencies: some services or apps can't start without other active services or apps which means that sometimes for a simple change on a single service or app you need to
+make changes to all services or apps related.
 Documentation: very important to update the documentation, because they can get outdated quickly.
 Version control: gives information about the current software version. It is sometimes possible to change version by a simple click.
