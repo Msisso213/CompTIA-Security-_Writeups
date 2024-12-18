@@ -1,5 +1,5 @@
-How to make a change in a network (upgrade software, patch, change firewall, etc.)? It needs a formal process to ensure the functionality of all application during and after the process.
-Here are the steps (may vary):
+How to make a change in a network (upgrade software, patch, change firewall, etc.)? It needs a formal process to ensure the functionality of all application during and after
+the process. Here are the steps (may vary):
 -Request a form
 -Purpose of the change (bug, risk, recent incidents, etc.)
 -Identify the scope of the change
