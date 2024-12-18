@@ -1,7 +1,8 @@
--Hashes represent data using short string of text. Unlike encryption, you can't recover the message using hashes. Its purpose it just to ensure the integrity of the data. It can also be used as digital signature. Many
-hashing algorithm exists. For example the SHA256 creates a 256 bits / 64 hexadecimal character.
--Collision: its when we give to different input to a hashing algorithm and it gives the same hash. Its extremely rare, but can happen. When a collision is discovered, we dont recommend using the algorithm anymore. An 
-example of this is MD5
+-Hashes represent data using short string of text. Unlike encryption, you can't recover the message using hashes. Its purpose it just to ensure the integrity of the data. It
+can also be used as digital signature. Many hashing algorithm exists. For example the SHA256 creates a 256 bits / 64 hexadecimal character.
+-Collision: its when we give to different input to a hashing algorithm and it gives the same hash. Its extremely rare, but can happen. When a collision is discovered, we dont
+recommend using the algorithm anymore. An example of this is MD5
 -Hash are often use to store password so that nobody can know your password.
--It is possible to reverse engineer the hashing process by using a table of every possible set of input and to see which hashes are associated with those input (this technique is called rainbow tables. To counter this, it
-is possible to a add some random values at the data before the hashing process called random salt so that it is impossible to reverse engineer the hashing process.
+-It is possible to reverse engineer the hashing process by using a table of every possible set of input and to see which hashes are associated with those input (this technique
+is called rainbow tables). To counter this, it is possible to a add some random values at the data before the hashing process called random salt so that it is impossible to
+reverse engineer the hashing process.
