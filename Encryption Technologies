@@ -1,3 +1,5 @@
--Most modern moderboards come with a hardware named Trusted Platform Module (TPM) which is specifically designed for cryptographic funtions (encryption, decryption, key storage, etc). 
--A TPM is used for a single device, but there is also a hardware named Hardware Security Module (HSM) which is used in large environments and also give cryptographic functionnalities to devices.
+-Most modern moderboards come with a hardware named Trusted Platform Module (TPM) which is specifically designed for cryptographic funtions (encryption, decryption, key
+storage, etc). 
+-A TPM is used for a single device, but there is also a hardware named Hardware Security Module (HSM) which is used in large environments and also give cryptographic
+functionnalities to devices.
 -There is also key managment system which can be cloud based that is used to manage all the stored keys.
