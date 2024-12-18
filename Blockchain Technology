@@ -1,4 +1,5 @@
 It is a distributed ledger which keeps track of transactions. Everyone who participate in the blockchain can maintain the ledger.
-Blockchain process: a transaction is requested, the transaction is sent to every computer (node) in the decentralized network. The verified transaction is added to a list of transactions (a block of data which 
-contains other verified transactions). A hash is calculated from the previous blocks and added to the new block. The block is then added to the blockchain which is then updated to all nodes. If any blocks are
-altered, the hashes will be wrong and the altered chain will not match the chains stored by the rest of the network and will be rejected.
+Blockchain process: a transaction is requested, the transaction is sent to every computer (node) in the decentralized network. The verified transaction is added to a list of
+transactions (a block of data which contains other verified transactions). A hash is calculated from the previous blocks and added to the new block. The block is then added to
+the blockchain which is then updated to all nodes. If any blocks are altered, the hashes will be wrong and the altered chain will not match the chains stored by the rest of
+the network and will be rejected.
