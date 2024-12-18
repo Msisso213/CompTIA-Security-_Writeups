@@ -10,5 +10,6 @@ Preventive: limit the access to the ressource such as firewall, guard, door lock
 Deterrent: the goal is to discourage or make the attacker think twice such as threat of demotion, warning signs, etc.
 Detective: identify and log an intrusion attempt. May not prevent access. Such as system logs, motion detectors, etc.
 Corrective: occur after the event happened, reverses the impact of an event, the goal is to continue operating with minimal downtime. For example restoring from backups, etc.
-Compensating: used when the existing controls aren't sufficient, they are temporary such as blocking a specific application by the time the patch is available, generator used after power outage, etc.
+Compensating: used when the existing controls aren't sufficient, they are temporary such as blocking a specific application by the time the patch is available, generator used 
+after power outage, etc.
 Directive: direct a subject towards security compliance such as training users on proper security policy
