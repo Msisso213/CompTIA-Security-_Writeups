@@ -1,2 +1,3 @@
--Static Application Security Testing (SAST): application developpers run their code to this analyzer and it will check for vulnerabilities such as buffer overflows, database injections, etc.
+-Static Application Security Testing (SAST): application developpers run their code to this analyzer and it will check for vulnerabilities such as buffer overflows, database
+injections, etc.
 -Code signing: process of making sure the application we download is the same as the developper and it hasnt been changed with some malwares and other vulnerabilities.
