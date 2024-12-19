@@ -1,6 +1,8 @@
--It is very often that attackers breaches in a network just because of misconfiguration vulnerabilities (someone just forgot to secure something obvious similar as someone who forgets to close the door behind him).
-It is more common with cloud
+-It is very often that attackers breaches in a network just because of misconfiguration vulnerabilities (someone just forgot to secure something obvious similar as someone who
+forgets to close the door behind him). It is more common with cloud.
 -Unsecured admin account is also a often used vulnerabilities (weak password).
--Insecure protocols: some protocols are not encrypted such as Telnet, FTP, SMTP, IMAP, and others which poses a risk. It is better to use secured protocols when possible such as SSH, SFTP, IMAPS, etc.
--Important to always change the default configurations (username, passwords) because some tools such as Mirai botnet as used and have data stored about all the software and devices default configurations.
+-Insecure protocols: some protocols are not encrypted such as Telnet, FTP, SMTP, IMAP, and others which poses a risk. It is better to use secured protocols when possible
+such as SSH, SFTP, IMAPS, etc.
+-Important to always change the default configurations (username, passwords) because some tools such as Mirai botnet are used and have data stored about all the software
+and devices default configurations.
 -Open ports and services: important to limit their access.
