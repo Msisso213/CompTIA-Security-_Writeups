@@ -1,7 +1,8 @@
 -Disconnect people from the network. Also called wireless deauthentification.
--How to disconnect someone from a wifi (only works if the management frames are not encrypted): while having root permission, run the command: airodump-ng {} -> inside the curly brasses we specify the wireless card (professor used for his example wlan0mon. After running this
-command, all access point of the area will be shown (with their addresses) with all the devices that are communicating with the wireless access point. We then need to find the right wifi address of the device we want to
-disconnect. We can then run the command aireplay-ng -0 100 -a [] -c {} // -> inside the [] goes the BSSID of the access point (hardware ID), inside the {} goes the mac address of the device we want to remove and inside 
-the // goes the wireless card name (professor used again wlan0mon)
+-How to disconnect someone from a wifi (only works if the management frames are not encrypted): while having root permission, run the command: airodump-ng {} -> inside the
+curly brasses we specify the wireless card (professor used for his example wlan0mon. After running this command, all access point of the area will be shown (with their
+addresses) with all the devices that are communicating with the wireless access point. We then need to find the right wifi address of the device we want to disconnect. We can
+then run the command aireplay-ng -0 100 -a [] -c {} // -> inside the [] goes the BSSID of the access point (hardware ID), inside the {} goes the mac address of the device we
+want to remove and inside the // goes the wireless card name (professor used again wlan0mon).
 -Radio frequency jamming: affects not a single device, but everyone who tries to communicate using that signal frequency.
 -Wireless jamming: constantly sending frames and data in the network
