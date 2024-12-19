@@ -1,8 +1,9 @@
 -Filter traffic by port number (traditional firewalls) or application (NGFW)
 -Encrypt traffic
 -Can also act as a router (layer 3)
--Firewall rules: they can be general or specific. A firewall will read the restrictions on the list starting for top to the bottom, so the specific rules as usually at the top. It is also common to have Access 
-control lists (ACLs) which are groupings of categories (source IP, destination IP, port number, etc.) that we want to allow or deny traffic. Here is an example of firewall ruleset:
+-Firewall rules: they can be general or specific. A firewall will read the restrictions on the list starting for top to the bottom, so the specific rules as usually
+at the top. It is also common to have Access Control Lists (ACLs) which are groupings of categories (source IP, destination IP, port number, etc.) that we want to
+allow or deny traffic. Here is an example of firewall ruleset:
 Rule Number      Remote IP      Remote Port      Local Port      Protocol      Action
     1               All             Any              22             TCP        Allow    -> this allow any traffic from remote IP/remote port using SSH
     2               All             Any              80             TCP        Allow    -> this allow any traffic from remote IP/remote port using HTTP
