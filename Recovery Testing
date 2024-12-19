@@ -1,3 +1,3 @@
--Test before an event happens to see how effective the procedures are. They are usually very specific
-Fail over refers to a type of recovery testing where we simulate a failure of the systems to see iff the redundant systems work properly.
+-Test before an event happens to see how effective the procedures are. They are usually very specific.
+-Fail over refers to a type of recovery testing where we simulate a failure of the systems to see iff the redundant systems work properly.
 -We can also simulate phishing attacks, data breaches and all types of attacks.
