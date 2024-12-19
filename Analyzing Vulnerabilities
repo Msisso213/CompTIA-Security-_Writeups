@@ -1,3 +1,3 @@
--Vulnerabilities can be given different levels of importance (severe/critical, moderate low (some low are actually false positive)). Each vulnerability can be given a score named Common Vulnerability Scoring System 
-(CVSS). There is also a Common Vulnerabilities Exposures site (CVE) where information can be found on known vulnerabilities.
--Risk tolerance referes to the amount of risk acceptable to an organization
+-Vulnerabilities can be given different levels of importance (severe/critical, moderate low (some low are actually false positive)). Each vulnerability can be given a
+score named Common Vulnerability Scoring System (CVSS). There is also a Common Vulnerabilities Exposures site (CVE) where information can be found on known vulnerabilities.
+-Risk tolerance referes to the amount of risk acceptable to an organization.
