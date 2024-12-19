@@ -1,7 +1,7 @@
--Security Content Automation Protocol (SCAP): lets say we have many tools to prevent intrusion in the network (NGFW, IPS, vulnerability scanners, etc) and they all identify the same incident, the SCAP is a tool that 
-recognize when many other tools recognize the same incident.
+-Security Content Automation Protocol (SCAP): let's say we have many tools to prevent intrusion in the network (NGFW, IPS, vulnerability scanners, etc) and they
+all identify the same incident, the SCAP is a tool that recognize when many other tools recognize the same incident.
 -Benchmarks: provide the bare minimum for security settings
 -SIEM tools
--Anti-virus and anti-malware
--Data Loss Prevention (DLP): stop sensitive data from being "leaked". (usually we put them at endpoints.
+-Anti-virus and anti-malwares
+-Data Loss Prevention (DLP): stop sensitive data from being "leaked". Usually we put them at endpoints.
 -Vulnerability scanners
