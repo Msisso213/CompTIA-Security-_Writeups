@@ -1,6 +1,6 @@
 -System hardening (windows, linux, iOS, Android, etc.) -> updates, user credential (username, passwords), limit network access, anti-malware, anti-virus, encryption.
--Endpoint detection and response (EDR): its a tool that monitor and respond to threats on endpoints (laptops, desktops, servers, etc.) It responds by isolating affected endpoints, removing malicious files or 
-rolling back changes made by malware.
+-Endpoint Detection and Response (EDR): it's a tool that monitor and respond to threats on endpoints (laptops, desktops, servers, etc.) It responds by isolating affected
+endpoints, removing malicious files or rolling back changes made by malware.
 -Host-based firewall
 -Open ports and services: have those limited as what is necessary. We can use nmap to scan which ports are open
 -Change the default passwords
