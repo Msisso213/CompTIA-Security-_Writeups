@@ -3,8 +3,9 @@ Malware that can repreduce itself in the network. It needs you to execute a prog
 -Boot sector viruses: run automatically with the boot system
 -Script viruses: contained inside the scripts
 -Macro viruses: written in macro language
--Fileless virus: doesnt use any file nor write any software or malicious code, which makes it better at avoiding anti-virus detection, because those looks for program that write files. It operates in the memory, and 
-is never installed in a file or application. Here's how it work: the user clicks on malicious website link which redirect him in a website that exploits a flash/java/windows vulnerability. It then lauches PowerShell 
-and downloads payload in RAM. It then runs PowerShell scripts and executables in meory, exfiltrates data, and damages files. It finally adds an auto-start in the boot system.
--Worms: malware that self-replicates, doesnt need any user intervention. It uses the network as transmission medium. Worms grow as fast as the network and can take over many systems very quickly. ISD/IPS can prevent
-their entry, but once they're in, those tools are pretty much useless.
+-Fileless virus: doesnt use any file nor write any software or malicious code, which makes it better at avoiding anti-virus detection, because those looks for program that
+write files. It operates in the memory, and is never installed in a file or application. Here's how it work: the user clicks on malicious website link which redirect him in
+a website that exploits a flash/java/windows vulnerability. It then lauches PowerShell and downloads payload in RAM. It then runs PowerShell scripts and executables in memory,
+exfiltrates data, and damages files. It finally adds an auto-start in the boot system.
+-Worms: malware that self-replicates, doesnt need any user intervention. It uses the network as transmission medium. Worms grow as fast as the network and can take over many
+systems very quickly. ISD/IPS can prevent their entry, but once they're in, those tools are pretty much useless.
