@@ -5,7 +5,8 @@
 
 -Encryption: plain to cypher back to plain
 -Hashing
--Obfuscation: taking something easy to follow to something very difficult to understand (for example echo "hello World" can be obfuscated to (remember the example supercomplicated)).
+-Obfuscation: taking something easy to follow to something very difficult to understand (for example echo "hello World" can be obfuscated to (remember the example 
+supercomplicated)).
 -Masking: hide data (example on receipt the *** on the credit card number)
 -Tokenization: replace information with token
 -Segmentation
