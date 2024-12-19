@@ -1,5 +1,6 @@
--Its important to have the systems and data available, but only for the right people. Thats why a lot of time and money are spend in monitoring and redundant systems. When downtime happens, it is important to 
-mitigate it as much as possible. The term resilience refers to the capacity for a system to recover from a downtime. To measure the resilience is MTTR (Mean Time to Repair).
+It's important to have the systems and data available, but only for the right people. That's why a lot of time and money are spend in monitoring and redundant systems. When
+downtime happens, it is important to mitigate it as much as possible. The term resilience refers to the capacity for a system to recover from a downtime. To measure the
+resilience is MTTR (Mean Time To Repair).
 -Cost
 -Another infrastructure consideration in responsiveness which is how quickly do we get a response.
 -Scalability refers for how quickly and easy can we increase the capacity
