@@ -1,4 +1,5 @@
--Recover important and valuable data. Its important to take in consideration the amount of data we want to backup, type of backup, backup media, storage location, backup and recovery software, day of the week, frequency.
+-Recover important and valuable data. It's important to take in consideration the amount of data we want to backup, type of backup, backup media, storage location, backup
+and recovery software, day of the week, frequency.
 -Onsite vs offsite backups
 -Snapshots: instant backup of an entire system, they are very usefull in cloud environment
 -Important to test if the backups work and we are able to recover from a backup.
