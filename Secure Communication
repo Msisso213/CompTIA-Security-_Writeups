@@ -1,11 +1,12 @@
--VPNs (virtual private network): it acts as a tunnel on one end we have a remote user and on the other hand we have the corporate network. The data that flows inside is encrypted, so even if someone was inside the 
-tunnel, he couldnt understand the data as it is encrypted (right before entering the corporate network, the VPN concentrator decrypts the data). Here how it works: if we want to send a packet, we need an IP header
-(destination) and data. But those information need to be encrypted, so we wrap those 2 (tunnel mode) with a new IP header (to point to the right IPsec concentrator) and an IPsec header with an IPsec Trailers (those
-2 will say from where the data starts and ends). Once the packet is received by the IPsec concentrator, it will remove the new IP header, the IPsec header, the IPsec trailers and will send the packet following the
+-VPNs (Virtual Private Network): it acts as a tunnel. On one end we have a remote user and on the other end we have the corporate network. The data that flows inside is
+encrypted, so even if someone was inside the tunnel, he couldnt understand the data as it is encrypted (right before entering the corporate network, the VPN concentrator
+decrypts the data). Here how it works: if we want to send a packet, we need an IP header (destination) and data. But those information need to be encrypted, so we wrap those
+2 (tunnel mode) with a new IP header (to point to the right IPsec concentrator) and an IPsec header with an IPsec Trailers (those 2 will say from where the data starts and
+ends). Once the packet is received by the IPsec concentrator, it will remove the new IP header, the IPsec header, the IPsec trailers and will send the packet following the 
 original IP header. 
--Common protocols that use VPN are SSL (secure sockets layer) also named remote access VPN and TLS (transport layer security).
+-Common protocols that use VPN are SSL (Secure Sockets Layer) also named remote access VPN and TLS (transport layer security).
 -Site-to-site IPsec VPN: in this type of configuration, there is a firewall in both end of the tunnel that acts as VPN concentrator.
--SD-WAN (Software Defined networking in a Wide Area Network: the traditional configuration of network is having a main physical datacenter in the middle, and many remote site connecting to it using VPN. Now with the
-cloud, it is also possible to access the databases in the cloud using SD-WAN without having to pass through the datacenter.
--SASE (Secure Access Service Edge): next generation VPN integrating the cloud.
-There are many VPN option and they can be combined depending the needs.
+-SD-WAN (Software Defined networking in a Wide Area Network): the traditional configuration of network is having a main physical datacenter in the middle, and many remote site
+connecting to it using VPN. Now with the cloud, it is also possible to access the databases in the cloud using SD-WAN without having to pass through the datacenter.
+-SASE (Secure Access Service Edge): next generation VPN integrating the cloud. 
+-There are many VPN option and they can be combined depending the needs.
