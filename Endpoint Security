@@ -1,4 +1,4 @@
 -Refers by the device used by the user.
--The endge refers to the point where the outside of the network meets the inside. There is usually a firewall there.
+-The edge refers to the point where the outside of the network meets the inside. There is usually a firewall there.
 -Endpoint detection and response (EDR): uses signatures, behavioral analysis, machine learning to detect if an activity on the endpoint should be allowed or not
--Extended Detection and Response (XDR): similar to EDR, but more performant since its scope of analysis is greater.
+-Extended Detection and Response (XDR): similar to EDR, but more performant since it's scope of analysis is greater.
