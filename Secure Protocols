@@ -1,3 +1,4 @@
--Important to alsways encrypt data and to use secure protocols when we can. For example, for remote console, use SSH instead of Telnet, for web browsing use HTTPS instead of HTTP, for email client access, use IMAPS 
-instead of IMAP, for file transfer, use SFTP instead of FTP, etc. Secure and insecure traffic happens on different ports. For example, HTTP is on port 80 whereas HTTPS is on port 443 (the port selection doesnt 
-implies that the data is encrypted. It is best practise to confirm on looking what protocol is used and to do a packet capture to see if the data is encrypted).
+-Important to alsways encrypt data and to use secure protocols when we can. For example, for remote console, use SSH instead of Telnet, for web browsing use HTTPS instead of 
+HTTP, for email client access, use IMAPS instead of IMAP, for file transfer, use SFTP instead of FTP, etc. Secure and insecure traffic happens on different ports. For example,
+HTTP is on port 80 whereas HTTPS is on port 443 (the port selection doesnt implies that the data is encrypted. It is best practise to confirm on looking what protocol is used
+and to do a packet capture to see if the data is encrypted).
