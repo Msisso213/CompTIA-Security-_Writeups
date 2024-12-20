@@ -1,6 +1,6 @@
 -Making sure someone has access to only authorized contants. A security best practice is least privilege which is giving rights and permissions only to what is needed.
--Mandatory Access Control (MAC): limit the access based on security clearance levels
+-Mandatory Access Control (MAC): limit the access based on security clearance levels.
 -Discretionary Access Control (DAC): the owner of the data decides who has access to the data.
--Role-based access control (RBAC): depends on your role, a manager, director, team lead, project manager all have different rights.
--Rule-based access control: depends on predetermined rules
--Attribute-based access control (ABAC): access is based on different criteria set by the admin
+-Role-Based Access Control (RBAC): depends on your role, a manager, director, team lead, project manager all have different rights.
+-Rule-based Access Control: depends on predetermined rules.
+-Attribute-Based Access Control (ABAC): access is based on different criteria set by the admin.
